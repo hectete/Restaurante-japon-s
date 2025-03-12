@@ -1,0 +1,445 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.der {
+    float: right;
+}
+
+.izq {
+    float: left;
+}
+
+.centrado {
+    margin: auto;
+}
+body {
+    background-image:url("img/2149957038.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: blanchedalmond;
+    padding: 20px;
+
+}
+/* Contenedor para acotar los márgenes del contenido */
+#contenedor {
+    width: 1100px;
+    margin: auto;
+    background-color:ivory;
+    /*background-image: url("img/6717985.ico");*/
+    
+}
+.imagen1 {
+    width: 100%;
+    height: 625px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 5px;
+    /*filter: contrast(100%);*/
+
+}
+header {
+    background-color: silver;
+    height: 160px;
+    background-image: url("img/1107.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    border-radius: 5px;
+
+
+   
+}
+h1 {
+    color: white;
+    text-align: center;
+    padding: 0px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-size: 55px;
+}
+h2 {
+    color: white;
+    text-align: center;
+    padding: 0px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-size: 35px;
+}
+/* Menú de navegación */
+nav {
+    /* Propiedades innecesarias cuando metemos contenido */
+    /* background: gray; */
+    /* height: 50px; */
+    
+    position: sticky;
+    top: 0;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(226, 131, 43);
+    border-radius: 5px;
+}
+nav li {
+    float: left;
+}
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 22px;
+    
+    
+}
+nav li a:hover {
+    background-color: lightgray;
+    text-transform: uppercase;
+    font-size: 22px; 
+    transition: 2s;/* Increase font size on hover */
+}
+
+.telefono {
+    float: right;
+    font-size: 20px;
+    padding: 16px;
+    color: white;
+    text-align: center;
+}
+
+.imgtelefono {
+    float: center;
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+    padding: 16;
+    border: 0;
+  color: white;
+}
+
+.imagen2 {
+    float: left;
+    width: 40%;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 5px;
+  /*  text-shadow: 5px 5px 2px white;
+    filter: contrast(100%); */
+}  
+
+section p {
+
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 40px;
+    font-family: Arial, sans-serif; 
+}
+.imagen3 {
+    float: right;
+    width: 40%;
+    height: 600px;
+    margin: 0;
+    padding: 0px;
+    border: 0;
+    border-radius: 5px;
+    /*filter: contrast(100%);*/
+
+}
+.p_img3 {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 40px;
+    font-family: Arial, sans-serif; 
+}
+.imagen4 {
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    padding: 4px;
+    border: 0;
+}
+.imagen5 {
+    float: left;
+    width: 50%;
+    height: 500px;
+    margin: 0;
+    padding: 2px;
+    border: 0;
+}
+.imagen6 {
+    float: right;
+    width: 50%;
+    height: 500px;
+    margin: 0;
+    padding: 2px;
+    border: 0;
+}
+.imagen7 {
+    float: left;
+    width: 50%;
+    height: 600px;
+    margin: 0;
+    padding: 2px;
+    border: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(226, 131, 43);
+    color: white;
+    position: relative;
+    width: 1100px;
+    border-radius: 5px;
+    margin-top: 20px;
+    height: 100px;
+    font-size: large;
+    margin: auto;
+}
+#f_izq {
+    float: left;
+    width: 30%;
+    height: 60px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: left;
+
+}
+#f_der {
+    float: right;
+    margin: auto;
+    width: 40%;
+    height: 60px;
+    padding: 11px;
+    text-align: center;
+}
+#f_centro {
+    float: center;
+    margin: auto;
+    width: 30%;
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+    
+}
+/*.tablafooter {
+    width: 45px;
+    height: 45px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(226, 131, 43);
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}*/
+/*CONTACTO CSS*/
+.mapa {
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 5px;
+}
+
+.formulario {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: burlywood;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario input[type=text], 
+.formulario input[type=email], 
+.formulario textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.formulario .botonenviar {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.formulario .botonenviar:hover {
+    background-color: darkgray;
+
+}
+.titformu {
+    width: 100%;
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-size: 40px;
+    background-color: black;
+}
+.secformulario {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 60px;
+    border: 0;
+    border-radius: 5px;
+    background-image: url("img/1107.jpg");
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*CARTA CSS*/
+
+.carta {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 5px;
+    background-image: url("img/1107.jpg");
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+/*SAKES*/
+.sakes {
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 5px;
+    background-image: url("img/1107.jpg");
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.sakes2 {
+    float: left;
+    width: 49%;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 5px;
+    background-image: url("img/1107.jpg");
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.sakes3 {
+    float: right;
+    width: 50%;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 5px;
+    background-image: url("img/1107.jpg");
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*ESPECIALIDADES*/
+
+.espe1 {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 5px;
+    background-image: url("img/1107.jpg");
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.espe2 {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 5px;
+    background-image: url("img/1107.jpg");
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.espe3 {
+    float: left;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 5px;
+    background-image: url("img/1107.jpg");
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.espe4 {
+    float: right;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 5px;
+    background-image: url("img/1107.jpg");
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.espe5 {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 5px;
+    background-image: url("img/1107.jpg");
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} 
